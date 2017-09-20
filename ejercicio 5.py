@@ -1,6 +1,6 @@
 def g(pesos, a, b):
     salida = (pesos[0] + pesos[1]*a + pesos[2]*b)
-    if salida <= 0:
+    if salida < 0:
         return 0
     else:
         return 1
